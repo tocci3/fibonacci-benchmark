@@ -1,6 +1,6 @@
 # fibonacci-benchmark
 
-    for mac
+for mac
 
 ## brew, cask, pip
 
