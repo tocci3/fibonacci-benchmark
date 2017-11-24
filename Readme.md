@@ -14,8 +14,9 @@ for mac
 
 ## manual install
 
-# (brew) * nim (http://nim-lang.org/download.html)
-# (brew) * rust (https://www.rust-lang.org/downloads.html)
+(brew)
+* nim (http://nim-lang.org/download.html)
+* rust (https://www.rust-lang.org/downloads.html)
 
 ## felix
 
