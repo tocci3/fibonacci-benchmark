@@ -6,25 +6,13 @@ for mac
 
     brew install ocaml crystal-lang luajit node elixir dmd pypy ponyc chapel nimrod go ldc
     brew install scala Caskroom/versions/java6 Caskroom/versions/java7 perl6 R
-<<<<<<< HEAD:Readme.md
     brew install nim rust
-=======
->>>>>>> 9851a165cdf0bdfaa331efccd398d2e582372fee:Readme.md
     brew install homebrew/php/php56
     brew unlink homebrew/php/php56
     brew install homebrew/php/php71
     brew cask install julia
     pip install nuitka
 
-<<<<<<< HEAD:Readme.md
-=======
-## manual install
-
-(brew)
-* nim (http://nim-lang.org/download.html)
-* rust (https://www.rust-lang.org/downloads.html)
-
->>>>>>> 9851a165cdf0bdfaa331efccd398d2e582372fee:Readme.md
 ## felix
 
 https://groups.google.com/forum/#!topic/felix-language/jQJOy_ovPFc
