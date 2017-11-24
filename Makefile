@@ -1,4 +1,4 @@
-execs = fib-c fib-c++ fib-chapel fib-d fib-d-ldc fib-crystal fib-go fib-felix fib-nim fib-rust fib-swift fib-ocaml fib-nuitka fib-fortran
+execs = fib-c fib-c++ fib-chapel fib-d fib-d-ldc fib-crystal fib-go fib-felix fib-nim fib-rust fib-swift fib-ocaml fib-nuitka fib-fortran fib-pony
 classes = java1.6/FibJava.class java1.7/FibJava.class java1.8/FibJava.class fib_scala.class
 php5 = /usr/local/Cellar/php56/5.6.29_5/bin/php
 php7 = /usr/local/Cellar/php71/7.1.0_11/bin/php
@@ -207,7 +207,7 @@ fib-ocaml: fib.ml
 
 fib-pony: fib.pony
 	time ponyc -o fib-pony.tmp
-	mv fib-pony.tmp/fibonacci-benchmark-tocci fib-pony
+	mv fib-pony.tmp/fibonacci-benchmark fib-pony
 
 fib-rust: fib.rs
 	time rustc -O -o fib-rust $<
