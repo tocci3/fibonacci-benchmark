@@ -1,21 +1,17 @@
 # fibonacci-benchmark
 
-    for mac
+for mac
 
 ## brew, cask, pip
 
     brew install ocaml crystal-lang luajit node elixir dmd pypy ponyc chapel nimrod go ldc
     brew install scala Caskroom/versions/java6 Caskroom/versions/java7 perl6 R
+    brew install nim rust
     brew install homebrew/php/php56
     brew unlink homebrew/php/php56
     brew install homebrew/php/php71
     brew cask install julia
     pip install nuitka
-
-## manual install
-
-# (brew) * nim (http://nim-lang.org/download.html)
-# (brew) * rust (https://www.rust-lang.org/downloads.html)
 
 ## felix
 
