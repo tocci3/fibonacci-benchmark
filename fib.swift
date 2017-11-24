@@ -1,5 +1,6 @@
+import Foundation
 func fib(n: Int) -> Int {
-    return n < 2 ? n : fib(n - 1)  + fib(n - 2)
+    return n < 2 ? n : fib(n: n - 1)  + fib(n: n - 2)
 }
 
-print(fib(Int(Process.arguments[1])!))
+print(fib(n: Int(CommandLine.arguments[1])!))
